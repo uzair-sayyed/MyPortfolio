@@ -6,12 +6,12 @@ import NavbarLogo from "../../assets/{Uzair.S}.png";
 
 function Footer() {
   return (
-    <footer>
+    <footer className='container'>
       <div className='footer-1'>
         <img src={NavbarLogo} />
         <div>
-          <span> +91 9321656698</span>
-          <span> sayeduzair54321@gmail.com</span>
+          <span className='info-1'> +91 9321656698</span>
+          <span className='info-2'> sayeduzair54321@gmail.com</span>
           <span>
             <a
               href='https://www.linkedin.com/in/uzair-sayyed-093a4321b/'

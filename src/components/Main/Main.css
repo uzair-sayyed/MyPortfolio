@@ -1,11 +1,10 @@
-main {
-  min-height: 100vh;
+#main {
+  min-height: 80vh;
 }
 .main {
   display: flex;
   justify-content: space-between;
-
-  margin-top: 180px;
+  margin-top: 250px;
 }
 
 .main-title {

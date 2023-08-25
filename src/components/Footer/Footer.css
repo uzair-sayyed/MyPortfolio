@@ -1,12 +1,9 @@
-footer {
-  margin-top: 150px;
-}
 .footer-1 {
-  /* margin-top: 180px; */
+  margin-top: 180px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #66666662;
   padding-bottom: 40px;
 }
 
@@ -57,7 +54,13 @@ footer {
   .footer-1 img {
     display: none;
   }
+  .footer-2 h4 {
+    font-size: 12px;
+  }
   .footer-2 h4 span {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .info-1 {
+    display: none;
   }
 }

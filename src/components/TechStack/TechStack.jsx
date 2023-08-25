@@ -10,7 +10,7 @@ import vscodeLogo from "../../assets/vscode-icons_file-type-vscode.png";
 
 function TechStack() {
   return (
-    <section className='tech-stack' id='tech-stack'>
+    <section className='tech-stack container' id='tech-stack'>
       <div className='tech-stack-header'>
         <h2>My Tech Stack</h2>
         <p> Technologies I’ve been working with recently</p>

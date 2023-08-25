@@ -3,7 +3,7 @@ import "./Main.css";
 import MainPic from "../../assets/50353683 1.png";
 function Main() {
   return (
-    <main id='main'>
+    <main id='main' className='container'>
       <div className='main'>
         <div>
           <h1 className='main-title'>

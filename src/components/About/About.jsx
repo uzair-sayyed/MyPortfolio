@@ -5,7 +5,7 @@ import { LiaBuildingSolid } from "react-icons/lia";
 import { CiLocationOn } from "react-icons/ci";
 function About() {
   return (
-    <section className='about-section' id='about'>
+    <section className='about-section container' id='about'>
       <div className='about-me'>
         <h2>About Me</h2>
         <p>
@@ -41,9 +41,9 @@ function About() {
           </div>
         </div>
       </div>
-      <div className='Education'>
+      <div className='education'>
         <h2>Education</h2>
-        <div>
+        <div className='education-1'>
           <div className='up'>
             <p className='p-title'>Bachelor of Computer Applications</p>
             <p className='p-mode'>Full Time</p>
@@ -60,6 +60,26 @@ function About() {
                 <SlCalender className='logo' />
               </span>
               Jul 2022 - Aug 2025
+            </p>
+          </div>
+        </div>
+        <div className='education-2'>
+          <div className='up'>
+            <p className='p-title'>Commerce</p>
+            <p className='p-mode'>Full Time</p>
+          </div>
+          <div className='down'>
+            <p>
+              <span>
+                <LiaBuildingSolid className='logo' />
+              </span>
+              Marceline Junior College
+            </p>
+            <p>
+              <span>
+                <SlCalender className='logo' />
+              </span>
+              Jul 2020 - May 2022
             </p>
           </div>
         </div>
