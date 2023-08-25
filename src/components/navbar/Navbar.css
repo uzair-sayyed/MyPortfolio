@@ -1,0 +1,127 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #42446e;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+  text-shadow: 0px 4px 4px #00000023;
+}
+
+.links a:hover {
+  color: #42446eb0;
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+}
+
+.links ul li {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.navbar-logo img {
+  margin-top: 7px;
+  width: 150px;
+  filter: drop-shadow(0px 4px 4px #0000003b);
+  top: 18px;
+}
+
+.navbar-logo img:hover {
+  cursor: pointer;
+}
+
+.links img {
+  filter: drop-shadow(0px 4px 4px #0000003b);
+}
+
+.linkedin-icon,
+.github-icon {
+  font-size: 30px;
+  margin-top: 7px;
+  filter: drop-shadow(0px 4px 4px #0000003b);
+}
+
+#mobile {
+  z-index: 5;
+}
+#close,
+#open {
+  color: #42446e;
+  transition: all 0.3s;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.links {
+  z-index: 2;
+}
+
+@media (width<996px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav {
+    margin-top: 20px;
+  }
+  .navbar-logo img {
+    margin-top: 2px;
+    position: fixed;
+  }
+  .links #nav-links {
+    flex-direction: column;
+    position: fixed;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    min-height: 100vh;
+    top: -30px;
+    overflow-x: hidden;
+    right: -300px;
+    gap: 2rem;
+    padding: 40px 0 0 10px;
+    background: #f5f5f5;
+    transition: all 0.3s;
+  }
+  .links #nav-links li {
+    margin-bottom: 15px;
+  }
+  .links #nav-links {
+    padding: 120px 50px 0 20px;
+  }
+  .links a {
+    font-size: 16px;
+  }
+  #mobile {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #nav-links.active {
+    right: 0px;
+  }
+}
+
+@media (width<540px) {
+  .navbar-logo img {
+    width: 100px;
+    position: fixed;
+  }
+}
+
+@media (width>996px) {
+  #mobile {
+    display: none;
+  }
+}
