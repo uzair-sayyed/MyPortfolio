@@ -1,6 +1,5 @@
 import React from "react";
 import "./Projects.css";
-// import ProjectCard from "./ProjectCard";
 import Cards from "./Cards";
 function Projects() {
   return (

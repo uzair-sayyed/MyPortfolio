@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
 import MainPic from "../../assets/50353683 1.png";
+import MyPic from "../../assets/uzair-removebg-preview 1.png";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 function Main() {
   return (
@@ -32,7 +33,7 @@ function Main() {
           </h1>
         </div>
         <div>
-          <img src={MainPic} alt='Profile Pic' />
+          <img src={MyPic} alt='Profile Pic' />
         </div>
       </div>
     </main>

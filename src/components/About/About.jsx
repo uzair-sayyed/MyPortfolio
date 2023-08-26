@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import { SlCalender } from "react-icons/sl";
 import { LiaBuildingSolid } from "react-icons/lia";
-import { CiLocationOn } from "react-icons/ci";
 function About() {
   return (
     <section className='about-section container' id='about'>

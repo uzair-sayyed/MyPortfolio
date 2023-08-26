@@ -23,7 +23,7 @@ function Contact() {
       setEmail("");
       setPhonenumber("");
       setMessage("");
-    }, 5000);
+    }, 1500);
   };
   return (
     <section id='contact' className='contact-section container'>
