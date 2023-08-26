@@ -5,6 +5,8 @@
   justify-content: space-between;
   border-bottom: 1px solid #66666662;
   padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .footer-1 img {
@@ -51,9 +53,7 @@
     font-size: 14px;
     text-align: right;
   }
-  .footer-1 img {
-    display: none;
-  }
+
   .footer-2 h4 {
     font-size: 12px;
   }
@@ -62,5 +62,14 @@
   }
   .info-1 {
     display: none;
+  }
+}
+@media (width<760px) {
+  .footer-1 img {
+    display: none;
+  }
+  .footer-1 {
+    display: block;
+    text-align: center;
   }
 }

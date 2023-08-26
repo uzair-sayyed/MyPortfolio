@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
 import MainPic from "../../assets/50353683 1.png";
+import { Typewriter, Cursor } from "react-simple-typewriter";
 function Main() {
   return (
     <main id='main' className='container'>
@@ -11,7 +12,23 @@ function Main() {
             My name is <br />
             <span className='name'>Uzair Sayyed </span>
             <br />
-            I'm a Frontend Developer
+            I'm a{" "}
+            <span className='changing-text'>
+              {" "}
+              <Typewriter
+                words={[
+                  "Frontend Developer",
+                  "React Developer",
+                  "UI Developer",
+                ]}
+                loop={0}
+                cursor
+                cursorStyle=''
+                typeSpeed={100}
+                deleteSpeed={70}
+                delaySpeed={2000}
+              />
+            </span>
           </h1>
         </div>
         <div>

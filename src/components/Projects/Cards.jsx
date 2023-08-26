@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
+import socialBook from "../../assets/socialbook.png";
+import airTickets from "../../assets/airTickets.png";
+import imageSearch from "../../assets/imageSearch.png";
+import news from "../../assets/news.png";
+import usabilityHub from "../../assets/usabilityHub.png";
+import restaurant from "../../assets/restaurant.png";
 function Cards() {
   const [datas, setDatas] = useState([
     {
@@ -10,8 +16,7 @@ function Cards() {
       techStack: "HTML, CSS, JavaScript, Resposnvie Design",
       livePreview: "https://uzair-sayyed.github.io/AirTickets/",
       github: "https://github.com/uzair-sayyed/AirTickets",
-      image:
-        "https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=879&q=80",
+      image: airTickets,
     },
     {
       id: 2,
@@ -21,8 +26,7 @@ function Cards() {
       techStack: "HTML, CSS, JavaScript, Resposnvie Design",
       livePreview: " https://uzair-sayyed.github.io/SocialBook/",
       github: "https://github.com/uzair-sayyed/SocialBook",
-      image:
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80",
+      image: socialBook,
     },
     {
       id: 3,
@@ -32,8 +36,7 @@ function Cards() {
       techStack: "HTML, CSS, JavaScript, Resposnvie Design",
       livePreview: "https://uzair-sayyed.github.io/UsabilityHubClone/",
       github: "https://github.com/uzair-sayyed/UsabilityHubClone",
-      image:
-        "https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      image: usabilityHub,
     },
     {
       id: 4,
@@ -43,8 +46,7 @@ function Cards() {
       techStack: "HTML , JavaScript, SASS, React",
       livePreview: "https://uzair-sayyed.github.io/RestrauntWebsite/",
       github: "https://github.com/uzair-sayyed/RestrauntWebsite",
-      image:
-        "https://images.unsplash.com/photo-1604079628040-94301bb21b91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      image: restaurant,
     },
     {
       id: 5,
@@ -54,8 +56,7 @@ function Cards() {
       techStack: "HTML , JavaScript, SASS, React",
       livePreview: "https://uzair-sayyed.github.io/ImageSearchAPI/",
       github: "https://github.com/uzair-sayyed/ImageSearchAPI",
-      image:
-        "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      image: imageSearch,
     },
     {
       id: 6,
@@ -65,8 +66,7 @@ function Cards() {
       techStack: "HTML , JavaScript, SASS, React",
       livePreview: "https://uzair-sayyed.github.io/NewsApp/",
       github: "https://github.com/uzair-sayyed/NewsApp",
-      image:
-        "https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      image: news,
     },
   ]);
   return datas.map((data) => {

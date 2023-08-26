@@ -1,0 +1,173 @@
+.contact-section {
+  margin-top: 250px;
+  margin-bottom: 300px;
+}
+.contact-container {
+  padding: 50px 0 30px 0;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffffef;
+  border-radius: 35px;
+  box-shadow: 0 5px 20px 1px #00000027;
+}
+
+.contact-container h2 {
+  font-size: 48px;
+  color: #42446e;
+  margin-bottom: 70px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: left;
+}
+
+.group label {
+  font-size: 28px;
+  color: #666666;
+  width: 80%;
+  margin: 15px auto;
+}
+
+.group input {
+  height: 30px;
+  margin: 0 auto;
+  width: 78%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #cbcbcb;
+  padding: 10px;
+  background: transparent;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #adadad;
+}
+
+.group input:focus {
+  border-color: deeppink;
+  scale: 1.05;
+}
+
+.group textarea {
+  height: 100px;
+  width: 80%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  border-bottom: 2px solid #cbcbcb;
+  background: transparent;
+  margin: 15px auto;
+  font-size: 20px;
+  color: #adadad;
+}
+
+.group textarea:focus {
+  border-color: rgba(255, 20, 204, 0.829);
+  scale: 1.05;
+}
+
+::-webkit-input-placeholder {
+  color: #cbcbcb;
+}
+
+button {
+  margin-top: 70px;
+  padding: 10px;
+  width: 30%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  background: #f5f5f5;
+}
+
+button p {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  background: #13b0f5;
+  background: -webkit-linear-gradient(
+    to bottom right,
+    #13b0f5 42%,
+    #e70faa 100%
+  );
+  background: -moz-linear-gradient(to bottom right, #13b0f5 42%, #e70faa 100%);
+  background: linear-gradient(to bottom right, #13b0f5 42%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #d4d4d46c;
+  scale: 1.03;
+}
+
+@media (width < 996px) {
+  .contact-section {
+    padding-inline: 15px;
+  }
+  .contact-container h2 {
+    margin-bottom: 50px;
+  }
+  .group label {
+    font-size: 28px;
+    margin: 13px auto;
+    font-size: 20px;
+  }
+  .contact-container {
+    padding: 40px 0 40px 0;
+  }
+
+  .group input {
+    font-size: 16px;
+  }
+  button {
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  button p {
+    font-size: 18px;
+  }
+  .group textarea {
+    font-size: 18px;
+  }
+}
+
+@media (width<540px) {
+  .contact-container h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .group label {
+    font-size: 28px;
+    margin: 10px auto;
+    font-size: 18px;
+  }
+  .contact-container {
+    padding: 35px 0 30px 0;
+  }
+
+  .group input {
+    font-size: 14px;
+  }
+  button {
+    margin-top: 30px;
+    padding: 10px;
+  }
+  button a {
+    font-size: 16px;
+  }
+  .group {
+    margin-bottom: -10px;
+  }
+  .group textarea {
+    font-size: 14px;
+    height: 70px;
+  }
+}

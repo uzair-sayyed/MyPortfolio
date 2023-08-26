@@ -52,11 +52,11 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to='contacts' smooth={true} duration={1000}>
+              <Link to='contact' smooth={true} duration={1000} offset={-70}>
                 CONTACT
               </Link>
             </li>
-            <li>
+            <li className='cv'>
               <a href='https://drive.google.com/uc?export=download&id=18wZCwQN3nwOR_AiXACQlTyyJ3sOafLi6'>
                 CV
               </a>
@@ -75,8 +75,20 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <div className='mobile' onClick={handleClick}>
-            {clicked ? <RxCross2 id='close' /> : <FaBars id='open' />}
+          <div className='mobile'>
+            <p className='responsive-contact last-para'>
+              <a href='https://drive.google.com/uc?export=download&id=18wZCwQN3nwOR_AiXACQlTyyJ3sOafLi6'>
+                CV
+              </a>
+            </p>
+            <p className='responsive-contact last-para'>
+              <Link to='contact' smooth={true} duration={1000} offset={-70}>
+                Contact
+              </Link>
+            </p>
+            <p className='last-para' onClick={handleClick}>
+              {clicked ? <RxCross2 id='close' /> : <FaBars id='open' />}
+            </p>
           </div>
         </div>
       </div>

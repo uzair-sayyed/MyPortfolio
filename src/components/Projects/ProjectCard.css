@@ -17,7 +17,9 @@
 .image img {
   width: 100%;
   height: 260px;
-  object-fit: cover;
+  /* object-fit: cover; */
+  object-fit: contain;
+  border-bottom: 1px solid #c4c2c27c;
 }
 
 .card .content {

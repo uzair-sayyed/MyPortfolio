@@ -2,6 +2,8 @@
   margin-bottom: 300px;
   /* max-width: 710px; */
   margin: 0 auto 300px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-section h2 {
@@ -25,6 +27,9 @@
 
 .about-me p {
   color: #666666;
+  text-align: left;
+  text-align: justify;
+  font-size: 15px;
 }
 .p-mode {
   background-color: #d7ffe0;
@@ -63,7 +68,7 @@
 .about-me,
 .work-experience,
 .education {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 @media (width<540px) {

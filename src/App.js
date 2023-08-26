@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import TechStack from "./components/TechStack/TechStack";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div className='main-container'>
@@ -14,6 +15,7 @@ function App() {
       <About />
       <TechStack />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
