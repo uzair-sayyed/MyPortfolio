@@ -128,7 +128,7 @@ function Cards() {
       id: 12,
       title: "My Portfolio",
       description:
-        "Completely based on React. It has many features that make user experience little more better.",
+        "Completely developed using React. It has many features that make user experience little more better.",
       techStack: "HTML, CSS, JavaScript",
       livePreview: "https://uzairsayyed.netlify.app/",
       github: "https://github.com/uzair-sayyed/MyPortfolio",

@@ -3,11 +3,20 @@ import "./Footer.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import NavbarLogo from "../../assets/{Uzair.S}.png";
+import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {
   return (
     <footer className='container'>
-      <div className='footer-1'>
+      <audio className='audio-element'>
+        <source src='https://assets.coderrocketfuel.com/pomodoro-times-up.mp3'></source>
+      </audio>
+      <div
+        className='footer-1'
+        onClick={() => {
+          scroll.scrollToTop();
+        }}
+      >
         <img src={NavbarLogo} />
         <div>
           <span className='info-1'> +91 9321656698</span>

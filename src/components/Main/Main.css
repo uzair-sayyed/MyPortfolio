@@ -4,15 +4,15 @@
 .main {
   display: flex;
   justify-content: space-between;
-  margin-top: 340px;
+  margin-top: 300px;
 }
 
 .main-title {
   font-size: 50px;
   color: #42446e;
 }
-
-/* .name {
+/* 
+.name {
   background: #13b0f5;
   background: -webkit-linear-gradient(
     to bottom right,

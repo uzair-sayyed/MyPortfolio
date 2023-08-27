@@ -13,7 +13,9 @@ function Navbar() {
   const handleClick = () => {
     setClicked(!clicked);
   };
-
+  const handleNavigationClick = () => {
+    setClicked(!clicked);
+  };
   return (
     <nav className='nav'>
       <div className='nav-content container'>
@@ -32,27 +34,57 @@ function Navbar() {
             className={`${clicked ? "#nav-links active" : "#nav-links"}`}
           >
             <li>
-              <Link to='home' smooth={true} duration={1000} offset={-100}>
+              <Link
+                to='home'
+                smooth={true}
+                duration={1000}
+                offset={-100}
+                onClick={handleNavigationClick}
+              >
                 HOME
               </Link>
             </li>
             <li>
-              <Link to='about' smooth={true} duration={1000} offset={-70}>
+              <Link
+                to='about'
+                smooth={true}
+                duration={1000}
+                offset={-70}
+                onClick={handleNavigationClick}
+              >
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link to='tech-stack' smooth={true} duration={1000} offset={-90}>
+              <Link
+                to='tech-stack'
+                smooth={true}
+                duration={1000}
+                offset={-90}
+                onClick={handleNavigationClick}
+              >
                 TECH STACK
               </Link>
             </li>
             <li>
-              <Link to='projects' smooth={true} duration={1000} offset={-90}>
+              <Link
+                to='projects'
+                smooth={true}
+                duration={1000}
+                offset={-90}
+                onClick={handleNavigationClick}
+              >
                 PROJECTS
               </Link>
             </li>
             <li>
-              <Link to='contact' smooth={true} duration={1000} offset={-70}>
+              <Link
+                to='contact'
+                smooth={true}
+                duration={1000}
+                offset={-70}
+                onClick={handleNavigationClick}
+              >
                 CONTACT
               </Link>
             </li>
@@ -65,12 +97,17 @@ function Navbar() {
               <a
                 href='https://www.linkedin.com/in/uzair-sayyed-093a4321b/'
                 target='_blank'
+                onClick={handleNavigationClick}
               >
                 <AiFillLinkedin className='linkedin-icon' />
               </a>
             </li>
             <li>
-              <a href='https://github.com/uzair-sayyed' target='_blank'>
+              <a
+                href='https://github.com/uzair-sayyed'
+                target='_blank'
+                onClick={handleNavigationClick}
+              >
                 <AiFillGithub className='github-icon' />
               </a>
             </li>
