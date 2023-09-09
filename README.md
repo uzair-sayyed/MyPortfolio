@@ -1,4 +1,4 @@
-Project pics
+#Project pics
 ![Screenshot 2023-09-10 022701](https://github.com/uzair-sayyed/MyPortfolio/assets/114924420/0a2b7663-935e-4b6a-b426-c0bca0c0d4f1)
 ![Screenshot 2023-09-10 022724](https://github.com/uzair-sayyed/MyPortfolio/assets/114924420/e6552037-f0a3-44aa-967b-b5441a1e5233)
 
