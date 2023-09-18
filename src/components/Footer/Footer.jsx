@@ -8,9 +8,6 @@ import { animateScroll as scroll } from "react-scroll";
 function Footer() {
   return (
     <footer className='container'>
-      <audio className='audio-element'>
-        <source src='https://assets.coderrocketfuel.com/pomodoro-times-up.mp3'></source>
-      </audio>
       <div
         className='footer-1'
         onClick={() => {

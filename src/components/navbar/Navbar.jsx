@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NavSocialLogo from "../../assets/Group 1.png";
+import { NavLink } from "react-router-dom";
 import NavbarLogo from "../../assets/{Uzair.S}.png";
 import "./Navbar.css";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -34,59 +35,29 @@ function Navbar() {
             className={`${clicked ? "#nav-links active" : "#nav-links"}`}
           >
             <li>
-              <Link
-                to='home'
-                smooth={true}
-                duration={1000}
-                offset={-100}
-                onClick={handleNavigationClick}
-              >
+              <NavLink to='/' onClick={handleNavigationClick}>
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to='about'
-                smooth={true}
-                duration={1000}
-                offset={-70}
-                onClick={handleNavigationClick}
-              >
+              <NavLink to='/about' onClick={handleNavigationClick}>
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to='tech-stack'
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                onClick={handleNavigationClick}
-              >
+              <NavLink to='/tech-stack' onClick={handleNavigationClick}>
                 TECH STACK
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to='projects'
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                onClick={handleNavigationClick}
-              >
+              <NavLink to='/projects' onClick={handleNavigationClick}>
                 PROJECTS
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to='contact'
-                smooth={true}
-                duration={1000}
-                offset={-70}
-                onClick={handleNavigationClick}
-              >
+              <NavLink to='/contact' onClick={handleNavigationClick}>
                 CONTACT
-              </Link>
+              </NavLink>
             </li>
             <li className='cv'>
               <a href='https://drive.google.com/uc?export=download&id=18wZCwQN3nwOR_AiXACQlTyyJ3sOafLi6'>
@@ -119,9 +90,7 @@ function Navbar() {
               </a>
             </p>
             <p className='responsive-contact last-para'>
-              <Link to='contact' smooth={true} duration={1000} offset={-70}>
-                Contact
-              </Link>
+              <NavLink to='contact'>Contact</NavLink>
             </p>
             <p className='last-para' onClick={handleClick}>
               {clicked ? <RxCross2 id='close' /> : <FaBars id='open' />}
