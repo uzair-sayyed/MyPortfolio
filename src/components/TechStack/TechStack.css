@@ -6,11 +6,11 @@
 
 .tech-stack-header h2 {
   font-size: 48px;
-  color: #42446e;
+  color: var(--nav_section-heading);
 }
 .tech-stack-header p {
   font-size: 32px;
-  color: #666666;
+  color: var(--section_text_color);
 }
 
 .tech-stack-container {

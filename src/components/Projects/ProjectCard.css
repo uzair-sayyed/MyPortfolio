@@ -6,7 +6,7 @@
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
-  background-color: #fff;
+  background-color: var(--card_bg-color);
   transition: all 0.3s ease;
   box-shadow: 0 5px 20px 1px #00000027;
 }
@@ -27,7 +27,7 @@
 }
 
 .content h3 {
-  color: #42446e;
+  color: var(--card-title);
   font-size: 28px;
   font-weight: 500;
   margin: 10px 0 5px 0;
@@ -35,11 +35,11 @@
 
 .content .projects-details {
   font-size: 18px;
-  color: #666666;
+  color: var(--section_text_color);
   font-weight: lighter;
 }
 .content .projects-tools {
-  color: #42446e;
+  color: var(--nav_section-heading);
   font-weight: 500;
   margin: 10px 0;
 }
@@ -56,7 +56,10 @@
 }
 
 .projects-link a {
-  color: #000000;
+  color: var(--card_link_color);
+}
+.project-link-icon {
+  color: var(--card_link_color);
 }
 
 .project-link-icon {

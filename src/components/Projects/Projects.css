@@ -5,13 +5,12 @@
 }
 .projects-heading h2 {
   font-size: 48px;
-  color: #42446e;
+  color: var(--nav_section-heading);
 }
 .projects-heading p {
   font-size: 32px;
-  color: #666666;
+  color: var(--section_text_color);
 }
-
 .projects-cards {
   margin-top: 100px;
   display: flex;

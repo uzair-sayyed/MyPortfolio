@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import MyPic from "../../assets/uzair-removebg-preview 1.png";
+import MyPic from "../../assets/myPic.png";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 function Main() {
   return (

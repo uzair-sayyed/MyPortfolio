@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import NavSocialLogo from "../../assets/Group 1.png";
 import { NavLink } from "react-router-dom";
 import NavbarLogo from "../../assets/{Uzair.S}.png";
+import { NavLink as Link } from "react-router-dom";
 import "./Navbar.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
-import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
+import DarkMode from "../UI/DarkMode";
 function Navbar() {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
@@ -20,15 +21,17 @@ function Navbar() {
   return (
     <nav className='nav'>
       <div className='nav-content container'>
-        <div
-          className='logo'
-          onClick={() => {
-            scroll.scrollToTop();
-          }}
-        >
-          <img src={NavbarLogo} alt='' />
-        </div>
-
+        <Link to='/'>
+          <div
+            className='logo'
+            onClick={() => {
+              scroll.scrollToTop();
+            }}
+          >
+            <img src={NavbarLogo} alt='' />
+          </div>
+        </Link>
+        <DarkMode />
         <div className='group'>
           <ul
             id='nav-links'

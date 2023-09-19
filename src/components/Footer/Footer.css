@@ -14,25 +14,27 @@
 
 .footer-1 span {
   margin-left: 40px;
-  color: #42446e;
+  color: var(--nav_section-heading);
 }
+
 .footer-1 span:hover,
 .footer-social-icon:hover {
   transition: 0.3s ease-in-out;
   color: #42446eb0;
   cursor: pointer;
 }
+
 .footer-social-icon {
   font-size: 22px;
   margin-bottom: -5px;
-  color: #42446e;
+  color: var(--nav_section-heading);
 }
 
 .footer-2 h4 {
   text-align: center;
   font-weight: 500;
   margin: 40px 0;
-  color: #666666;
+  color: var(--section_text_color);
 }
 
 .footer-2 h4 span {
@@ -47,6 +49,7 @@
     display: block;
     padding-bottom: 20px;
   }
+
   .footer-1 span {
     margin-left: 10px;
     font-size: 14px;
@@ -56,9 +59,11 @@
   .footer-2 h4 {
     font-size: 12px;
   }
+
   .footer-2 h4 span {
     font-size: 12px;
   }
+
   .info-1 {
     display: none;
   }
@@ -67,6 +72,7 @@
   .footer-1 img {
     display: none;
   }
+
   .footer-1 {
     display: block;
     text-align: center;

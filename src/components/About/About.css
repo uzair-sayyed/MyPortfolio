@@ -7,13 +7,13 @@
 
 .about-section h2 {
   font-size: 48px;
-  color: #42446e;
+  color: var(--nav_section-heading);
   margin-bottom: 20px;
 }
 
 .about-section .p-title {
   font-size: 20px;
-  color: #666666;
+  color: var(--section_text_color);
   margin-bottom: 10px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .about-me p {
-  color: #666666;
+  color: var(--section_text_color);
   text-align: left;
   text-align: justify;
   font-size: 15px;
@@ -42,7 +42,7 @@
   margin-top: 20px;
 }
 .down p {
-  color: #a7a7a7;
+  color: var(--section_text_color_2);
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -57,7 +57,7 @@
   position: relative;
   top: 4px;
   margin-right: 6px;
-  color: #a7a7a7;
+  color: var(--section_text_color_2);
 }
 
 .location {
