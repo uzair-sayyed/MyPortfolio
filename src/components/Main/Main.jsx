@@ -9,7 +9,7 @@ function Main() {
         <div>
           <h1 className='main-title'>
             Hi👋, <br />
-            My name is is is <br />
+            My name is <br />
             <span className='name'>Uzair Sayyed </span>
             <br />
             I'm a{" "}
