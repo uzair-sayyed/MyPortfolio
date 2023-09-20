@@ -107,6 +107,36 @@ button:hover {
   scale: 1.03;
 }
 
+.group input:focus {
+  outline: none;
+  border-color: #4f005f;
+  background: #f6dbfc;
+}
+.group textarea:focus {
+  outline: none;
+  border-color: #4f005f;
+  background: #f6dbfc;
+}
+
+.group.invalid input {
+  border-color: red;
+  background: #fbdada;
+}
+.group.invalid textarea {
+  border-color: red;
+  background: #fbdada;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
 @media (width < 996px) {
   .contact-section {
     padding-inline: 15px;
