@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import socialBook from "../../assets/socialbook.png";
-import airTickets from "../../assets/airTickets.png";
-import imageSearch from "../../assets/imageSearch.png";
-import news from "../../assets/news.png";
-import usabilityHub from "../../assets/usabilityHub.png";
-import restaurant from "../../assets/restaurant.png";
-import qrcode from "../../assets/qrcode.png";
-import weatherapp from "../../assets/weatherapp.png";
-import calculator from "../../assets/calculator.png";
+import socialBook from "../../assets/socialbook (1).png";
+import airTickets from "../../assets/airTickets (1).png";
+import imageSearch from "../../assets/imageSearch (1).png";
+import news from "../../assets/news (1).png";
+import usabilityHub from "../../assets/usabilityHub (1).png";
+import restaurant from "../../assets/restaurant (1).png";
+import qrcode from "../../assets/qrcode (1).png";
+import weatherapp from "../../assets/weatherapp (1).png";
+import calculator from "../../assets/calculator (1).png";
 import expensetracker from "../../assets/expensetracker.png";
-import passwordgenerator from "../../assets/passwordgenerator.png";
-import myportfolio from "../../assets/myportfolio.png";
+import passwordgenerator from "../../assets/passwordgenerator (1).png";
+import myportfolio from "../../assets/myportfolio (1).png";
 function Cards() {
   const [datas, setDatas] = useState([
     {
