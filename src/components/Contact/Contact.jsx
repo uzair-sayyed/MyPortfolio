@@ -15,7 +15,7 @@ function Contact() {
     setFormIsValid(
       name.trim().length >= 4 &&
         email.includes("@") &&
-        phonenumber.toString().trim().length >= 6 &&
+        phonenumber.toString().trim().length >= 8 &&
         phonenumber.toString().trim().length < 11 &&
         message.trim().length >= 20
     );
@@ -40,7 +40,7 @@ function Contact() {
   };
   const validatePhoneHandler = () => {
     setPhoneIsValid(
-      phonenumber.toString().trim().length >= 6 &&
+      phonenumber.toString().trim().length >= 8 &&
         phonenumber.toString().trim().length < 11
     );
   };
