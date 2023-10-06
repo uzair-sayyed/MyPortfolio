@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DarkMode from "./components/UI/DarkMode";
+
 function App() {
   return (
     <Router>

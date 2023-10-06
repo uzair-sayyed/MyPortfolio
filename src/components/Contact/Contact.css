@@ -73,7 +73,7 @@
   color: var(--input_color);
 }
 
-button {
+.button-div button {
   margin-top: 70px;
   padding: 10px;
   border: none;

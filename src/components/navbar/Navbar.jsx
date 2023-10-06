@@ -10,6 +10,7 @@ import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { animateScroll as scroll } from "react-scroll";
 import DarkMode from "../UI/DarkMode";
+import BackDrop from "../UI/BackDrop";
 function Navbar() {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
@@ -101,6 +102,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+      {clicked && <BackDrop handleClick={handleClick} />}
     </nav>
   );
 }
