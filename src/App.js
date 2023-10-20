@@ -7,7 +7,6 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import DarkMode from "./components/UI/DarkMode";
 
 function App() {
   return (
@@ -17,7 +16,8 @@ function App() {
         <Route path='/' element={<Main />} />
         <Route path='/about' element={<About />} />
         <Route path='/tech-stack' element={<TechStack />} />
-        <Route path='/projects' element={<Projects />} />
+        {<Route path='/projects' element={<Projects />} />}
+
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

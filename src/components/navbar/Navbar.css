@@ -48,9 +48,13 @@
   text-decoration: none;
   transition: 0.2s ease-in-out;
 }
-#nav-links li a:hover {
-  scale: 1.1;
+
+#nav-links li:hover {
+  scale: 1.06;
+
+  transition: 0.2s ease-in-out;
 }
+
 .responsive-contact {
   display: none;
 }
