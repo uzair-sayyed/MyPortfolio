@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Main.css";
-import MyPic from "../../assets/myPic.png";
+import portfolioPic from "../../assets/portfolioPic-modified 1.png";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 function Main() {
   const [enteredEmail, setEnteredEmail] = useState("");
@@ -59,7 +59,7 @@ function Main() {
           </h1>
         </div>
         <div>
-          <img src={MyPic} alt='Profile Pic' />
+          <img src={portfolioPic} alt='Profile Pic' />
         </div>
       </div>
     </main>

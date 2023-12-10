@@ -12,6 +12,8 @@ import calculator from "../../assets/calculator (1).png";
 import expensetracker from "../../assets/expensetracker.png";
 import passwordgenerator from "../../assets/passwordgenerator (1).png";
 import myportfolio from "../../assets/myportfolio (1).png";
+import movieApp from "../../assets/movieApp.png";
+import foodOrderApp from "../../assets/foodOrderApp.png";
 function Cards() {
   const [datas, setDatas] = useState([
     {
@@ -66,6 +68,16 @@ function Cards() {
     },
     {
       id: 6,
+      title: "Cart App (React)",
+      description:
+        "Added Complete Cart functionality to this app with Modal opening for Cart and Checkout Form. User can fill the form for the order. Data will be recieve in the backend Data folder in JSON format",
+      techStack: "HTML, JavaScript, CSS, React",
+      livePreview: "https://food-order-app-uzairsayyed.netlify.app/",
+      github: "https://github.com/uzair-sayyed/Food-Order-App",
+      image: foodOrderApp,
+    },
+    {
+      id: 7,
       title: "News App",
       description:
         " This App shows the latest news fetched from the web API. It is completely Responsive for the better user experience.",
@@ -75,7 +87,28 @@ function Cards() {
       image: news,
     },
     {
-      id: 7,
+      id: 8,
+      title: "Movie App (React)",
+      description:
+        "Created using React Router Dom and Axios it redirects you to the other page once you click on the movie card. Error handling is also done in this project.",
+      techStack: "HTML , JavaScript, CSS, React, React Router Dom",
+      livePreview: "https://movieappuzairsayyed.netlify.app/",
+      github: "https://github.com/uzair-sayyed/Movie-App",
+      image: movieApp,
+    },
+    {
+      id: 9,
+      title: "My Portfolio (React)",
+      description:
+        "Used Router Dom Library and many other external libraries for features. Used raw css for complete styling and added media queries for responsiveness.",
+      techStack:
+        "HTML, CSS, JavaScript, React, React Router Dom, External libraries",
+      livePreview: "https://uzairsayyed.netlify.app/",
+      github: "https://github.com/uzair-sayyed/MyPortfolio",
+      image: myportfolio,
+    },
+    {
+      id: 10,
       title: "QR Code Generator",
       description:
         "QR Code Genrator is API based application which provides Barcode Scanner for texts and links, etc. It is written on vanilla Javascript.",
@@ -85,7 +118,7 @@ function Cards() {
       image: qrcode,
     },
     {
-      id: 8,
+      id: 11,
       title: "Weather App",
       description:
         "This app shows weather information based on the location entered. It fetched the data from the Web services API.",
@@ -95,7 +128,7 @@ function Cards() {
       image: weatherapp,
     },
     {
-      id: 9,
+      id: 12,
       title: "Calculator",
       description:
         "This app includes math operations functionalities. It is also has features like switching from light mode to dark mode",
@@ -105,7 +138,7 @@ function Cards() {
       image: calculator,
     },
     {
-      id: 10,
+      id: 13,
       title: "Expense Tracker",
       description:
         "This app is completely based on React components and Logics. It has reusable components. It includes graphical data representation too.",
@@ -115,7 +148,7 @@ function Cards() {
       image: expensetracker,
     },
     {
-      id: 11,
+      id: 14,
       title: "Password Generator",
       description:
         "Password generator app is for generating random passwords. It can generate password on specific conditions like Uppercase, onlywords, with symbols, etc.",
@@ -123,16 +156,6 @@ function Cards() {
       livePreview: "https://uzair-sayyed.github.io/PasswordGenerator/",
       github: "https://github.com/uzair-sayyed/PasswordGenerator",
       image: passwordgenerator,
-    },
-    {
-      id: 12,
-      title: "My Portfolio",
-      description:
-        "Completely developed using React. It has many features that make user experience little more better.",
-      techStack: "HTML, CSS, JavaScript",
-      livePreview: "https://uzairsayyed.netlify.app/",
-      github: "https://github.com/uzair-sayyed/MyPortfolio",
-      image: myportfolio,
     },
   ]);
   return datas.map((data) => {
