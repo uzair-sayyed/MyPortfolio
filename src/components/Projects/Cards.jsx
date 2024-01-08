@@ -14,6 +14,7 @@ import passwordgenerator from "../../assets/passwordgenerator (1).png";
 import myportfolio from "../../assets/myportfolio (1).png";
 import movieApp from "../../assets/movieApp.png";
 import foodOrderApp from "../../assets/foodOrderApp.png";
+import todoList from "../../assets/todoList.png";
 function Cards() {
   const [datas, setDatas] = useState([
     {
@@ -156,6 +157,16 @@ function Cards() {
       livePreview: "https://uzair-sayyed.github.io/PasswordGenerator/",
       github: "https://github.com/uzair-sayyed/PasswordGenerator",
       image: passwordgenerator,
+    },
+    {
+      id: 15,
+      title: "Todo App",
+      description:
+        "This is based on CRUD functionality. We can add, mark it completed and delete the task from browser local storage.",
+      techStack: "HTML, CSS, JavaScript",
+      livePreview: "https://uzair-sayyed.github.io/ToDoList/",
+      github: "https://github.com/uzair-sayyed/ToDoList",
+      image: todoList,
     },
   ]);
   return datas.map((data) => {
