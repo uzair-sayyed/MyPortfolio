@@ -1,21 +1,18 @@
 .scroll-btn {
-  color: black;
-  position: fixed;
-
-  width: 90%;
-  bottom: 30px;
-  right: 30px;
-  font-size: 30px;
+  position: sticky;
+  width: 40px;
+  bottom: 14px;
+  margin-left: 89%;
+  font-size: 40px;
   border: none;
   background: none;
+  z-index: 11;
 }
 
 @media (width < 768px) {
   .scroll-btn {
     color: black;
-    bottom: 5%;
-    right: 0%;
-    transform: translate(90%, 50%);
+
     font-size: 30px;
   }
 }

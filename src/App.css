@@ -8,8 +8,11 @@
 body {
   font-family: "Poppins", sans-serif;
   background: var(--body_background);
-  /* overflow: hidden; */
-  /* min-height: 100vh; */
+  overflow-x: hidden;
+
+  overflow-y: scroll;
+}
+#root {
 }
 .container {
   max-width: 1200px;

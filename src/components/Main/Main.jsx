@@ -71,7 +71,6 @@ function Main() {
       <TechStack />
       <Projects />
       <Contact />
-      <ScrollButton />
     </main>
   );
 }

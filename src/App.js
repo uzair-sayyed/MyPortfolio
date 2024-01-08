@@ -6,6 +6,7 @@ import TechStack from "./components/TechStack/TechStack";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
+import ScrollButton from "./components/UI/ScrollButton";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
+      <ScrollButton />
     </Router>
   );
 }

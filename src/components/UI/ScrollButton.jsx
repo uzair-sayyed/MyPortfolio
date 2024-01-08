@@ -27,7 +27,10 @@ const ScrollButton = () => {
     <div className='scroll-btn'>
       <FaArrowCircleUp
         onClick={scrollToTop}
-        style={{ display: visible ? "inline" : "none" }}
+        style={{
+          display: visible ? "inline" : "none",
+          color: "var(--scroll_btn_color)",
+        }}
       />
     </div>
   );
