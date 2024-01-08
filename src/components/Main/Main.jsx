@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./Main.css";
 import portfolioPic from "../../assets/portfolioPic-modified 1.png";
 import { Typewriter, Cursor } from "react-simple-typewriter";
+import About from "../About/About";
+import TechStack from "../TechStack/TechStack";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
+import ScrollButton from "../UI/ScrollButton";
 function Main() {
   const [enteredEmail, setEnteredEmail] = useState("");
   const [emailIsValid, setEmailIsValid] = useState();
@@ -62,6 +67,11 @@ function Main() {
           <img src={portfolioPic} alt='Profile Pic' />
         </div>
       </div>
+      <About />
+      <TechStack />
+      <Projects />
+      <Contact />
+      <ScrollButton />
     </main>
   );
 }
