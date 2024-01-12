@@ -15,6 +15,7 @@ import myportfolio from "../../assets/myportfolio (1).png";
 import movieApp from "../../assets/movieApp.png";
 import foodOrderApp from "../../assets/foodOrderApp.png";
 import todoList from "../../assets/todoList.png";
+import tictactoe from "../../assets/tictactoe.png";
 function Cards() {
   const [datas, setDatas] = useState([
     {
@@ -167,6 +168,16 @@ function Cards() {
       livePreview: "https://uzair-sayyed.github.io/ToDoList/",
       github: "https://github.com/uzair-sayyed/ToDoList",
       image: todoList,
+    },
+    {
+      id: 16,
+      title: "Tic Tac Toe",
+      description:
+        "Added logics using Js core concept for tic tac toe and based upon that winner will be decided or match will be drawn. user can reset the game.",
+      techStack: "HTML, CSS, JavaScript",
+      livePreview: "https://uzair-sayyed.github.io/TictTac-Toe/",
+      github: "https://github.com/uzair-sayyed/TictTac-Toe",
+      image: tictactoe,
     },
   ]);
   return datas.map((data) => {
