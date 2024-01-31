@@ -16,6 +16,7 @@ import movieApp from "../../assets/movieApp.png";
 import foodOrderApp from "../../assets/foodOrderApp.png";
 import todoList from "../../assets/todoList.png";
 import tictactoe from "../../assets/tictactoe.png";
+import movix from "../../assets/movix.png";
 function Cards() {
   const [datas, setDatas] = useState([
     {
@@ -111,6 +112,16 @@ function Cards() {
     },
     {
       id: 10,
+      title: "Movie App (Advanced)",
+      description:
+        "This app is built using react and and api is used for movies. This app is built using mulitple libraries like router, infinite scroll, react-icon, circular progressbar, and many more. We can search and see movies. Also we can sort it by different conditions. we can pay the trailer of it too.",
+      techStack: "HTML, CSS, JavaScript, React, Redux",
+      livePreview: "https://uzairsayyedmovix.netlify.app/",
+      github: "https://github.com/uzair-sayyed/movix",
+      image: movix,
+    },
+    {
+      id: 11,
       title: "QR Code Generator",
       description:
         "QR Code Genrator is API based application which provides Barcode Scanner for texts and links, etc. It is written on vanilla Javascript.",
@@ -120,7 +131,7 @@ function Cards() {
       image: qrcode,
     },
     {
-      id: 11,
+      id: 12,
       title: "Weather App",
       description:
         "This app shows weather information based on the location entered. It fetched the data from the Web services API.",
@@ -130,7 +141,7 @@ function Cards() {
       image: weatherapp,
     },
     {
-      id: 12,
+      id: 13,
       title: "Calculator",
       description:
         "This app includes math operations functionalities. It is also has features like switching from light mode to dark mode",
@@ -140,7 +151,7 @@ function Cards() {
       image: calculator,
     },
     {
-      id: 13,
+      id: 14,
       title: "Expense Tracker",
       description:
         "This app is completely based on React components and Logics. It has reusable components. It includes graphical data representation too.",
@@ -150,7 +161,7 @@ function Cards() {
       image: expensetracker,
     },
     {
-      id: 14,
+      id: 15,
       title: "Password Generator",
       description:
         "Password generator app is for generating random passwords. It can generate password on specific conditions like Uppercase, onlywords, with symbols, etc.",
@@ -160,7 +171,7 @@ function Cards() {
       image: passwordgenerator,
     },
     {
-      id: 15,
+      id: 16,
       title: "Todo App",
       description:
         "This is based on CRUD functionality. We can add, mark it completed and delete the task from browser local storage.",
@@ -170,7 +181,7 @@ function Cards() {
       image: todoList,
     },
     {
-      id: 16,
+      id: 17,
       title: "Tic Tac Toe",
       description:
         "Added logics using Js core concept for tic tac toe and based upon that winner will be decided or match will be drawn. user can reset the game.",
