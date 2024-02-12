@@ -25,6 +25,8 @@
   gap: 10rem;
 }
 
+
+
 @media (width<870px) {
   .tech-stack-header h2 {
     font-size: 40px;

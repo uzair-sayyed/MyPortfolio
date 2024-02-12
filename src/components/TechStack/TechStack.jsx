@@ -7,6 +7,8 @@ import gitHubLogo from "../../assets/akar-icons_github-fill.png";
 import gitLogo from "../../assets/logos_git-icon.png";
 import reactLogo from "../../assets/logos_react.png";
 import vscodeLogo from "../../assets/vscode-icons_file-type-vscode.png";
+import reduxLogo from "../../assets/redux.png";
+import sassLogo from "../../assets/logos_sass.png";
 
 function TechStack() {
   return (
@@ -20,6 +22,8 @@ function TechStack() {
         <img src={cssLogo} alt='css' />
         <img src={jsLogo} alt='js' />
         <img src={reactLogo} alt='react' />
+        <img src={reduxLogo} alt='redux' />
+        <img src={sassLogo} alt='sass' />
         <img src={vscodeLogo} alt='vsCode' />
         <img src={gitHubLogo} alt='github' />
         <img src={gitLogo} alt='git' />

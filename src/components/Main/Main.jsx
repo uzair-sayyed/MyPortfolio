@@ -38,7 +38,7 @@ function Main() {
   return (
     <main id='main' className='container'>
       <div className='main'>
-        <div>
+        <div className='profile-details'>
           <h1 className='main-title'>
             Hi👋, <br />
             My name is <br />
@@ -63,7 +63,7 @@ function Main() {
             </span>
           </h1>
         </div>
-        <div>
+        <div className='profile-photo'>
           <img src={portfolioPic} alt='Profile Pic' />
         </div>
       </div>
