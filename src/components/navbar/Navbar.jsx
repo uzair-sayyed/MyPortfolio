@@ -64,7 +64,7 @@ function Navbar() {
               </NavLink>
             </li>
             <li className='cv'>
-              <a href='https://drive.google.com/uc?export=download&id=18wZCwQN3nwOR_AiXACQlTyyJ3sOafLi6'>
+              <a href='https://drive.google.com/uc?export=download&id=1Z9diylRsrH5C_D_qXNmZ6TUXai70_3bt'>
                 CV
               </a>
             </li>
