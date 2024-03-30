@@ -89,7 +89,7 @@ function Navbar() {
           </ul>
           <div className='mobile'>
             <p className='responsive-contact last-para'>
-              <a href='https://drive.google.com/uc?export=download&id=18wZCwQN3nwOR_AiXACQlTyyJ3sOafLi6'>
+              <a href='https://drive.google.com/uc?export=download&id=1Z9diylRsrH5C_D_qXNmZ6TUXai70_3bt'>
                 CV
               </a>
             </p>
