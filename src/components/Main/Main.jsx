@@ -64,7 +64,12 @@ function Main() {
           </h1>
         </div>
         <div className='profile-photo'>
-          <img src={portfolioPic} alt='Profile Pic' />
+          {/* <img src={portfolioPic} alt='Profile Pic' /> */}
+          <img
+            style={{ borderRadius: "50%" }}
+            src='https://res.cloudinary.com/daspfwyhz/image/upload/c_crop,g_auto,h_800,w_800/yiseuiihtsvpl3fyx3qi.jpg'
+            alt='Profile Pic'
+          />
         </div>
       </div>
       <About />

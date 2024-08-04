@@ -9,6 +9,8 @@ import reactLogo from "../../assets/logos_react.png";
 import vscodeLogo from "../../assets/vscode-icons_file-type-vscode.png";
 import reduxLogo from "../../assets/redux.png";
 import sassLogo from "../../assets/logos_sass.png";
+import boostrapLogo from "../../assets/logos_bootstrap.png";
+import jqueryLogo from "../../assets/logos_jquery.png";
 
 function TechStack() {
   return (
@@ -18,15 +20,50 @@ function TechStack() {
         <p> Technologies I’ve been working with recently</p>
       </div>
       <div className='tech-stack-container'>
-        <img src={htmlLogo} alt='html' />
-        <img src={cssLogo} alt='css' />
-        <img src={jsLogo} alt='js' />
-        <img src={reactLogo} alt='react' />
-        <img src={reduxLogo} alt='redux' />
-        <img src={sassLogo} alt='sass' />
-        <img src={vscodeLogo} alt='vsCode' />
-        <img src={gitHubLogo} alt='github' />
-        <img src={gitLogo} alt='git' />
+        <div>
+          <img src={htmlLogo} alt='html' />
+          <h3>HTML</h3>
+        </div>
+        <div>
+          <img src={cssLogo} alt='css' />
+          <h3>CSS</h3>
+        </div>
+        <div>
+          <img src={jsLogo} alt='js' />
+          <h3>Javascript</h3>
+        </div>
+        <div>
+          <img src={reactLogo} alt='react' />
+          <h3>ReactJS</h3>
+        </div>
+        <div>
+          <img src={reduxLogo} alt='redux' />
+          <h3>Redux</h3>
+        </div>
+        <div>
+          <img src={boostrapLogo} alt='bootstrap' />
+          <h3>Bootstrap</h3>
+        </div>
+        <div>
+          <img src={jqueryLogo} alt='jquery' />
+          <h3>Jquery</h3>
+        </div>
+        <div>
+          <img src={sassLogo} alt='sass' />
+          <h3>SASS</h3>
+        </div>
+        <div>
+          <img src={vscodeLogo} alt='vsCode' />
+          <h3>VS Code</h3>
+        </div>
+        <div>
+          <img src={gitHubLogo} alt='github' />
+          <h3>Github</h3>
+        </div>
+        <div>
+          <img src={gitLogo} alt='git' />
+          <h3>Git</h3>
+        </div>
       </div>
     </section>
   );

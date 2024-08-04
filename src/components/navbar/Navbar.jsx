@@ -64,7 +64,7 @@ function Navbar() {
               </NavLink>
             </li>
             <li className='cv'>
-              <a href='https://drive.google.com/uc?export=download&id=1Z9diylRsrH5C_D_qXNmZ6TUXai70_3bt'>
+              <a href='https://drive.google.com/uc?export=download&id=1ZfDARdfaBhiGqo1vPey7hkn6xIa1UzfJ'>
                 CV
               </a>
             </li>
@@ -89,7 +89,7 @@ function Navbar() {
           </ul>
           <div className='mobile'>
             <p className='responsive-contact last-para'>
-              <a href='https://drive.google.com/uc?export=download&id=1Z9diylRsrH5C_D_qXNmZ6TUXai70_3bt'>
+              <a href='https://drive.google.com/uc?export=download&id=1ZfDARdfaBhiGqo1vPey7hkn6xIa1UzfJ'>
                 CV
               </a>
             </p>

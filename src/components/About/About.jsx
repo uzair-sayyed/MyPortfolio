@@ -39,6 +39,26 @@ function About() {
             </p>
           </div>
         </div>
+        <div style={{ marginTop: "28px" }}>
+          <div className='up'>
+            <p className='p-title'>Frontend Developer</p>
+            <p className='p-mode'>Full Time</p>
+          </div>
+          <div className='down'>
+            <p>
+              <span>
+                <LiaBuildingSolid className='logo' />
+              </span>
+              Big Dreams
+            </p>
+            <p>
+              <span>
+                <SlCalender className='logo' />
+              </span>
+              May 2024 - Present
+            </p>
+          </div>
+        </div>
       </div>
       <div className='education'>
         <h2>Education</h2>
