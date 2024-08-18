@@ -11,6 +11,7 @@ import reduxLogo from "../../assets/redux.png";
 import sassLogo from "../../assets/logos_sass.png";
 import boostrapLogo from "../../assets/logos_bootstrap.png";
 import jqueryLogo from "../../assets/logos_jquery.png";
+import tailwindLogo from "../../assets/tailwind.png";
 
 function TechStack() {
   return (
@@ -43,6 +44,10 @@ function TechStack() {
         <div>
           <img src={boostrapLogo} alt='bootstrap' />
           <h3>Bootstrap</h3>
+        </div>
+        <div>
+          <img src={tailwindLogo} alt='bootstrap' />
+          <h3>Tailwind</h3>
         </div>
         <div>
           <img src={jqueryLogo} alt='jquery' />

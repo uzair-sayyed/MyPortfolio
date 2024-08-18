@@ -8,6 +8,9 @@
   font-size: 48px;
   color: var(--nav_section-heading);
 }
+.tech-stack h3 {
+  color: var(--nav_section-heading);
+}
 .tech-stack-header p {
   font-size: 32px;
   color: var(--section_text_color);

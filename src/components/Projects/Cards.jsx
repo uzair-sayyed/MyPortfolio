@@ -186,7 +186,7 @@ function Cards() {
       description:
         "Added logics using Js core concept for tic tac toe and based upon that winner will be decided or match will be drawn. user can reset the game.",
       techStack: "HTML, CSS, JavaScript",
-      livePreview: "https://uzair-sayyed.github.io/TictTac-Toe/",
+      livePreview: "https://uzair-sayyed.github.io/TicTacToe/",
       github: "https://github.com/uzair-sayyed/TictTac-Toe",
       image: tictactoe,
     },

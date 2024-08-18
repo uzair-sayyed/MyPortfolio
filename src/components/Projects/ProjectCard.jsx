@@ -2,6 +2,8 @@ import React from "react";
 import "./ProjectCard.css";
 import { AiOutlineLink } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function ProjectCards(props) {
   return (
